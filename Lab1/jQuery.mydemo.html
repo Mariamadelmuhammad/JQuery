@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery</title>
+    <script src="./jquery.js"></script>
+  </head>
+  <body>
+    <!-- <div>
+      <h1>inside div</h1>
+    </div>
+    <div class="my class">
+      <h1>inside div</h1>
+    </div>
+    <button>click me</button>
+    <pre>
+      <h1>testing</h1>
+    </pre> -->
+
+    <div class="cls">test</div>
+    <p class="cls">test 2</p>
+    <script>
+      // $("div").hide()
+
+      //  $("button").click(function () {
+      //    $("div").hide();
+      // });
+      //  alldivs and all buttons -->wrong
+
+      // better way to make website ready
+      // $(document).ready(function () {
+      //   $("button").click(function () {
+      //     $("this").hide();
+      //   });
+      // });
+      // this refers to the button the button will disappear
+      // in js i can hide using style.display none
+
+      // $(document).ready(function () {
+      //   $("button").click(function () {
+      //     $("*").hide();
+      //   });
+      // });
+      // hide all the page it holds all the elements-->* all elements universal
+
+      // $(document).ready(function () {
+      //   $("button").click(function () {
+      //     $(".my class").hide();
+      //   });
+      // });
+
+      // $(document).ready(function () {
+      //   $("button").click(function () {
+      //     $("body h1").hide();
+      //   });
+      // });
+      // i can hold more than one element and apply the same funcion
+      // body a means all a in my body --nested list --a can have inner elements
+
+      // $(document).ready(function () {
+      //   $("button").click(function () {
+      //     $("pre h1").hide();
+      //   });
+      // });
+      // i can have parents but in jquery we don't care about how many parents we have
+      // h1 inside small inside body
+      // body space h1
+
+      // if i have a direct and indirect h1 parents and i only want to select the single parent
+      //we use body > h1; only one parent
+      // h1+p only the p directly after h1 regardless how many h1 i have
+
+      //  h1:not ("class1")
+      // means the one that doesnt have class1 or not#id1 if it doesnt have id for example
+      /* div:has(p) div that has p inside
+      i can use has and not in the same syntex
+
+
+
+      i have 3 divs 2 has h1 and 1 has p
+      has not p
+      div has not (p)
+      apply to the both h1 in all my three divs
+    
+    even and odd 
+    not numbers they are indexes
+    each tr inside the tables has index 
+    the first one---> index of zero 
+    the second one --->index of 1 
+even 0 2 4 6 8 
+odd 1 3 5 7 
+tr:even
+
+
+contains used when the elements contain any text or number
+i can write the whole word or half of it
+hello in my text  
+    or hell --> it would work
+
+    empty means the elemnt that it's empty -->hide it
+td:empty.css
+.css means giving properities ("backhround","red")---syntax
+td that is empty make the background red
+spaces considered a text
+
+
+.css({
+  background:red
+  color: blue
+}) more than 1 syntax in the css file are acceptable
+
+
+
+div .cls  -->div that has class cls or has -- it holds an element has a class cls 
+div.cls holds the div that has cls cls inside the div 
+
+
+
+nth-clild(3)
+number of childs
+div that has 3 childs 
+
+dom traversing
+div. parents 
+holds all the parents of div
+h1.parents 
+holds the div and the whole body
+if i want to hold the direct parent
+
+parents & parent
+children& 
+div only will be applied all over the div
+div.children 
+will be applied only behind the children for example h1 and ps
+siblings --> at the same level
+p div and url they are siblings-->rule
+
+find -->div.find(a)
+holds tha A inside the div not the div itself
+
+
+    
+    
+    
+    
+    
+    
+    */
+    </script>
+  </body>
+</html>
